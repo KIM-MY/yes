@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin : 0;
+            padding : 0;
+        }
+        body > header{
+            padding : 0.5rem 0;
+            border-bottom : 1px solid black;
+            
+        }
+        body > header > div.header-title{
+            font-size : 2rem;
+            text-align: center;
+        }
+
+        body > section {
+            display : flex;
+        }
+
+        body > section > div.section-leftMenu{
+            border-right : 1px solid black;
+            padding : 0 1rem 0 0
+        }
+
+        body > section > div.section-main {
+            padding : 0 0 0 2rem;
+        }
+
+        body > section > div.section-main > div.section-main-title{
+            font-size : 1.5rem;
+            margin : 1rem 0 0 0;
+        }
+
+        body > section > div.section-main > div.section-main-document{
+            margin : 1rem 0 0 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class= "header-title">
+            WEB
+        </div>
+    </header>
+
+    <section>
+        <div class="section-leftMenu">
+            <ol>
+                <li><u><a href="../html/1.html" target="" title="">HTML</a></u></li>
+                <li><u><a href="../html/2.html" target="" title="">CSS</a></u></li>
+                <li><u><a href="../html/3.html" target="" title="">JavaScript</a></u></li>
+            </ol>
+        </div>
+        <div class="section-main">
+            <div class="section-main-title">
+                HTML
+            </div>
+            <div class="section-main-video">
+                <video src="../resorces/video/flower.webm" controls width="250" autoplay poster="../resorces/image/background-1783902_640.png" muted loop></video>
+                <!-- autoplay : 동영상을 자동으로 재생합니다.
+                    controls : 재생, 정지 등 조작 메뉴를 보여줍니다.
+                    loop : 동영상을 반복 재생합니다.
+                    poster : 동영상 재생 전에 보여줄 이미지입니다.
+                    preload : 페이지를 열 때 무엇을 로드할지 정합니다.
+                    auto : 동영상, 메타데이타 모두 로드합니다.
+                    metadata : 메타데이타만 로드합니다.
+                    none : 로드하지 않습니다.
+                    source
+                    src : 동영상 위치를 입력합니다. 웹브라우저가 가장 많이 지원하는 형식은 MP4입니다.
+                    type : 동영상 타입을 알려줍니다. 만약 MP4 파일이라면 video/mp4라고 적습니다.
+                    zzz : 웹브라우저가 video 태그를 지원하지 않을 때 출력될 텍스트입니다. -->
+            </div>
+            <div class="section-main-document">
+                Why do we use it?
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+                layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                as opposed to using 'Content here, content here', making it look like readable English.
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search
+                for
+                <img src="../resorces/image/1.png" alt=''>
+                'lorem ipsum'
+                will uncover many web sites still in their infancy.
+                Various versions haveevolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                like).
+            </div>
+        </div>
+    </section>
+</body>
+</html>
